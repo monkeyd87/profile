@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: darkslateblue;
+    
+}
+hr{
+    width: 70%;
+}
+h1{
+    color:aliceblue;
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    color: white;
+
+}
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.profilepiccontainer{
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: black solid 5px;
+    margin: 20px;
+    background-color: grey;
+}
+
+.about-me img{
+    height: inherit;
+    width: auto;
+}
+
+.projects{
+    display: flex;
+    /* border:red 1px solid; */
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.placeholder{
+    height: 200px;
+    width: 300px;
+    border: black solid 4px;
+    margin: 10px;
+}
+
+footer{
+    text-align: center;
+}
