@@ -1,105 +1,44 @@
-body{
+*{
     margin: 0;
-    background-color: antiquewhite;
+    padding: 0;
 }
 
-header{
+body{
+    
+    background-color: antiquewhite;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: darkslateblue;
     
 }
-hr{
-    width: 70%;
-}
-h1{
-    color:aliceblue;
-}
 
-li{
-
-    display: inline-block;
-    margin: 10px;
-    padding: 5px;
+header h1 {
     color: white;
-
+    display: inline;
+    /* border: 1px red solid; */
 }
 
+header ul{
+/* border: red solid 2px; */
+}
 
-a{
-    text-decoration: none;
+header li {
+    display:inline-block;
+    
+    padding:30px 20px;
+    color: white;
+    /* border: solid red 2px; */
+}
+header li:hover{
+    background-color: rgb(32, 23, 91);
+}
+
+a {
     color: inherit;
-}
-
-.about-me{
-    background-image: url('https://www.addictivetips.com/app/uploads/2020/04/7cDoyzS.png');
-    background-position: center;
-    background-size: cover;
-    padding-right: 10px;
-}
-
-.profilepiccontainer{
-    overflow: hidden;
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-    border: black solid 5px;
-    margin: 20px;
-    background-color: grey;
-}
-
-.about-me img{
-    height: inherit;
-    width: auto;
-}
-
-.projects{
-    
-    display: flex;
-    /* border:red 1px solid; */
-    flex-wrap: wrap;
-    justify-content: center;
-
-}
-.placeholder{
-    position: relative;
-    height: 200px;
-    width: 300px;
-    border: black solid 4px;
-    margin: 25px;
-}
-.placeholder div {
-    position:absolute;
-    bottom:25%;
-    left: -50px;
-    display: inline-block;
-    padding: 10px;
-    background-color: black;
-    color: white;
-    border-radius: 10px;
-    
-}
-.placeholder div:hover{
-    background-color: white;
-    color: black;
-}
-
-footer{
-    display: flex;
-    position: relative;
-    bottom: 0;
-    justify-content: center;
-    position: relative;
-    /* text-align: center; */
-    background-color:darkslateblue ;
-    color: white;
-    padding-top: 100px;
-
-}
-
-footer p{
-    position: absolute;
-    bottom: 0;
-    float:right;
-    
+    text-decoration: none;
 }
