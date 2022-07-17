@@ -8,6 +8,11 @@ body{
     background-color: antiquewhite;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+hr{
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+}
 
 header {
     display: flex;
@@ -38,7 +43,91 @@ header li:hover{
     background-color: rgb(32, 23, 91);
 }
 
-a {
+header a {
     color: inherit;
     text-decoration: none;
 }
+
+#about-me {
+    background-image: url('https://img.wallpapersafari.com/desktop/1920/1080/55/3/bDfnrt.jpg');
+    background-size: cover;
+    padding:45px;
+
+}
+ #about-me img {
+    position: absolute;
+    left:50px;
+    height:300px;
+    width: 200px;
+    /* border:red solid 1px; */
+    margin: 0 auto;
+ }
+#pic-container {
+    position: relative;
+    border:white solid 3px;
+    border-radius: 300px;
+    overflow: hidden;
+    width:300px;
+    height: 300px;
+
+    
+    
+}
+
+
+#projects {
+display:flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.placeholder{
+    position: relative;
+    height: 200px;
+    width: 300px;
+    border: black solid 5px;
+    background-color:grey ;
+    margin: 5px;
+}
+
+.placeholder div{
+position:absolute;
+bottom: 0;
+background-color: black;
+color: white;
+padding: 10px;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    /* justify-content:space-between; */
+    background-color: darkslateblue;
+    color: white;
+}
+footer div {
+    display: flex;
+    justify-content: center       ;
+    margin: 20px;
+    padding: 15px;
+    background-color: rgb(32, 23, 91);
+    
+    
+}
+form button{
+
+    display: block;
+}
+
+form label{
+    
+    display:block;
+
+}
+
+footer p {
+    text-align: center;
+
+}
+
