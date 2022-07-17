@@ -81,6 +81,16 @@ flex-wrap: wrap;
 justify-content: space-around;
 }
 
+.placeholder1{
+    position: relative;
+    height: 400px;
+    width: 600px;
+    border: black solid 5px;
+    background-color:grey ;
+    margin: 5px;
+}
+
+
 .placeholder{
     position: relative;
     height: 200px;
@@ -90,7 +100,7 @@ justify-content: space-around;
     margin: 5px;
 }
 
-.placeholder div{
+.placeholder div, .placeholder1 div{
 position:absolute;
 bottom: 0;
 background-color: black;
